@@ -451,11 +451,165 @@ body {
 /* Section 4 */
 .section-4 {
     width: 100%;
-    height: 90vh;
-    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px;
 }
 
+.container-team {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.description-team {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.description-team h1 {
+    color: var(--white);
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.description-team p {
+    color: #7C7E83;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-users {
+    gap: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-team {
+    gap: 25px;
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: .3s ease;
+}
+
+.card-team:hover {
+    transform: translateY(-10px);
+}
+
+.card-team .user {
+    width: 100%;
+    height: 403px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--section-pink);
+}
+
+.card-team .user img {
+    position: absolute;
+    bottom: 0;
+    transition: .3s ease;
+    filter: grayscale(100%);
+}
+
+.card-team .user img:hover {
+    filter: grayscale(0%);
+}
+
+.robert {
+    width: 287.14px;
+    height: 390px;
+}
+
+.jones {
+    width: 226.5px;
+    height: 390px;
+}
+
+.michell {
+    width: 318px;
+    height: 390px;
+}
+
+.bastin {
+    width: 251.56px;
+    height: 390px;
+}
+
+.jennifer {
+    width: 269.84px;
+    height: 390px;
+}
+
+.nova {
+    width: 364px;
+    height: 390px;
+}
+
+.description-user {
+    width: 100%;
+    height: auto;
+}
+
+.description-user h5 {
+    color: var(--text-card);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.description-user p {
+    color: #7C7E83;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0px 10px;
+    text-transform: capitalize;
+}
+
+.network-user {
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.network-user a {
+    background-color: transparent;
+}
+
+.network-user a box-icon {
+    width: 30px;
+    height: 30px;
+    transition: .3s ease;
+}
+
+.network-user a box-icon:hover {
+    transform: translateY(-10px);
+}
 
 
 
