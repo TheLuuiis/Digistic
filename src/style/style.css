@@ -662,6 +662,7 @@ body {
     border-radius: 51px;
     text-decoration: none;
     transition: .3s ease;
+    text-transform: capitalize;
     background-color: var(--background-section);
 }
 
@@ -675,6 +676,7 @@ body {
     border-radius: 51px;
     text-decoration: none;
     transition: .3s ease;
+    text-transform: capitalize;
     background-color: transparent;
 }
 
